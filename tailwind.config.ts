@@ -24,6 +24,10 @@ export default {
         'light-700': "#E0DFD9",
         'light-800': "#F5F5F5"
       },
+      backgroundImage: {
+        bannerImg: "url('/landing_hero.png')",
+        blackOverlay: "linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%)"
+      }
     },
   },
   plugins: [],

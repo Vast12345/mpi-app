@@ -17,7 +17,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="w-full h-[70px] px-4 py-4 flex justify-between items-center lg:px-[162px] lg:py-2 bg-black-600 z-50">
+      <div className="w-full h-[70px] px-4 py-4 flex justify-between items-center lg:px-[162px] lg:py-2 bg-white z-50">
         <Image 
           src="/logo.png"
           alt="MPI Logo"
@@ -45,13 +45,13 @@ const Header: React.FC = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="lg:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none"
         >
-          <Image src={"/tabler_icon_menu_2.svg"} alt='Hamburger Menu' width={32} height={32} className='z-50'/>
+          <Image src={"/hamburger_black.svg"} alt='Hamburger Menu' width={32} height={32} className='z-50'/>
         </button>
       </div>
 
       {/* Mobile Navigation Overlay */}
       <div 
-        className={`fixed inset-0 bg-black-600 transform transition-transform duration-300 ease-in-out lg:hidden ${
+        className={`fixed inset-0 bg-white transform transition-transform duration-300 ease-in-out lg:hidden ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } z-40`}
       >
