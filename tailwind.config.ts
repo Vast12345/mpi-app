@@ -22,10 +22,12 @@ export default {
         'black-600': "#666561",
         'black-500': "#BAB9B1",
         'light-700': "#E0DFD9",
-        'light-800': "#F5F5F5"
+        'light-800': "#F5F5F5",
+        'go-green': "#26B11A"
       },
       backgroundImage: {
         bannerImg: "url('/landing_hero.png')",
+        goGreenBg: "url('/gogreen-bg.png')",
         blackOverlay: "linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%)"
       }
     },
